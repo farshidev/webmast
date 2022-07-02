@@ -79,7 +79,7 @@ a:hover {
 }
 
 main {
-    background-image: url(hanna-postova-671356-unsplash.jpg);
+    background-image: url(bkimages/1.jpg);
     background-size: cover;
     text-align: center;
     color: white;
@@ -157,3 +157,30 @@ footer {
         text-align: center;
      }
 }
+
+/* gallery section for testing horizontally scrollbar */ 
+
+.gallery {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior: contain;
+}
+.gallery > img { 
+    width: 100%;
+    max-width: 720px;
+    aspect-ratio: 16/9;
+    height: auto;
+}
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.gallery::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .gallery {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
