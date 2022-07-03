@@ -169,7 +169,7 @@ footer {
 .gallery {
     display: flex;
     overflow-x: scroll;
-    overscroll-behavior: contain;
+    /* overscroll-behavior: contain; */
     margin-top: 100px;
     margin-bottom: 100px;
 }
