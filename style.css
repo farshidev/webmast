@@ -164,8 +164,6 @@ footer {
 
 
 
-
-
 .gallery {
     display: flex;
     overflow-x: scroll;
@@ -175,8 +173,7 @@ footer {
 }
 .gallery > img { 
     width: 100%;
-    max-width: 280px;
-    aspect-ratio: 16/9;
+    aspect-ratio: 16/10;
     height: auto;
 }
 
